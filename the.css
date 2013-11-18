@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+html {
+	font-family: Lato, "Segoe UI", Avenir, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+	margin: 0 auto 2em auto;
+	width: 95%;
+	max-width: 800px;
+}
+
+input, textarea {
+	font: inherit;
+}
+
+::selection {
+	color: #fff;
+	background-color: #f34;
+}
+
+::-moz-selection {
+	color: #fff;
+	background-color: #f34;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #aaa;
+}
+
+#setup {
+	margin-bottom: 1em;
+}
+
+#prose {
+	width: 100%;
+	height: 10em;
+	margin-bottom: .5em;
+	font-size: 80%;
+	border-color: #aaa;
+	resize: vertical;
+}
+
+#setup input[type="submit"] {
+	float: right;
+	color: #fff;
+	background-color: #aaa;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding: .25em 1em;
+	border: 0;
+}
+
+#output {
+	padding: 1em 1.5em;
+	white-space: pre-wrap;
+	font-family: Georgia, Garamond, serif;
+	font-size: 16pt;
+	line-height: 1.9em;
+}
+
+/* clearfix hack */
+
+#setup:before, #setup:after {
+	content: ' ';
+	display: table;
+}
+#setup:after {
+	clear: both;
+}
+

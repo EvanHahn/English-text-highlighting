@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!-- lovingly made by Evan Hahn. -->
+
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>English syntax highlighting</title>
+<link rel="stylesheet" href="vendor/normalize.css">
+<link rel="stylesheet" href="the.css">
+
+<link rel="stylesheet" href="lib/highlight-default.css">
+
+</head>
+<body>
+
+<h1>English syntax highlighting</h1>
+
+<p>Nerds already highlight their code. Why don't we also highlight our prose?</p>
+
+<form id="setup">
+	<textarea id="prose"></textarea>
+	<input type="submit" value="Go for it">
+</form>
+
+<div id="output" class="hl-area"></div>
+
+<script src="vendor/jquery.js"></script>
+<script src="vendor/holmes.js"></script>
+<script src="lib/highlight.js"></script>
+<script src="ui.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* color: #f93672; */
+
+.hl-area {
+	color: #f8f8f2;
+	background-color: #1b1d1e;
+}
+
+.hl-common-word {
+	opacity: .7;
+}
+
+.hl-period, .hl-exclamation-point {
+	color: #f92672;
+}
+
+.hl-comma {
+	color: #8f8f8f;
+}
+
+.hl-semicolon, .hl-question-mark {
+	color: #fd971f;
+}
+
+.hl-dash, .hl-in-quotes {
+	color: #e6db74;
+}
+
+.hl-number {
+	color: #ae81ff;
+}
+
+.hl-in-parentheses {
+	color: #75715e;
+}
+
+.hl-in-single-quotes {
+	color: #a6e22e;
+}
